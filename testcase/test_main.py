@@ -55,5 +55,5 @@ class Test_main:
         self.driver.find_element(MobileBy.XPATH,"//*[@text='请填写手机号码']").send_keys('15009253686')
         self.driver.find_element(MobileBy.XPATH,"//*[@text='请填写证件号码']").send_keys('610102199112241910')
         self.driver.find_element(MobileBy.XPATH,"//*[@text='立即预订']").click()
-
+        #代理mock微信支付
 
